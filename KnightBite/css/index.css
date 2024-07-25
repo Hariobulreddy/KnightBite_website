@@ -1,0 +1,302 @@
+/* Navbar */
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    background-color: rgba(87, 87, 87, 0.8);
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon img{
+height: 50px;
+margin-left: 150px;
+}
+.nav-icon .cap{
+    margin-right: 10px;
+    color: white;
+    margin-left: 10px;
+}
+.nav-links a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: medium;
+    color: white;
+}
+.nav-links a:hover{
+    color: rgb(77, 20, 212);
+}
+
+
+/* header */
+.one img{
+    width: 100%;
+    height: 700px;
+}
+.one{
+    position: relative;
+}
+.one .in{
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.one .in button{
+    width: 170px;
+    height: 45px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    background-color: red;
+}
+.one .p{
+    font-size: 20px;
+}
+.one .app img{
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    margin-right: 20px;
+    transition: .2s;
+}
+.one .app img:hover{
+    transform: scale(1.1);
+}
+
+/* features */
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.images img{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+.two{
+    position: relative;
+} 
+.two .in{
+    position: absolute;
+    top: 300px;
+    left: 280px;
+    font-family: nicotineregular;
+    color: white;
+}
+
+.three{
+    position: relative;
+}
+.three .in{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    font-family: nicotineregular;
+    color: white;
+    font-size: 40px;
+}   
+
+
+.four{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+.contact i{
+    color: red;
+    width: 40px;
+}
+.quick ul li{
+  color: rgb(239, 15, 172);  
+  margin-top: 10px;
+    font-size: larger;
+}
+.para .input{
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.input{
+  background-image: url('../asserts/images/email.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px; 
+}
+
+.five{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    font-size: larger;
+}
+.links a{
+    margin-left: 25px;
+    transition: .2s;
+}
+.links i:hover{
+    transform: scale(1.2);
+}
+/* footer */
+
+.foot{
+    display: flex;
+    margin-left: 600px;
+}
+
+.foot img{
+    width: 80px;
+    height: 40px;
+}
+.copy{
+    background:linear-gradient(45deg,rgb(202, 70, 92),rgb(69, 69, 180));
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+/* About page design starts */
+.about-one img{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.about-one-in h1{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    color: white;
+    font-size: 60px;
+}
+.about-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+.about-two a{
+    text-decoration: none;
+    font-size: 25px;
+}
+/* About page design ends */
+
+
+/* Menu page design starts */
+.menu-one img{
+    width: 100%;
+}
+.menu_icons1{
+    position: absolute;
+   top: 100px;
+   left: 200px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   color: white;
+}
+.menu_icons2{
+    position: absolute;
+   top: 350px;
+   left: 200px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   color: white;
+}
+.burger_icon{
+   display: block;
+   justify-content: space-around;
+   padding: 50px 100px;
+}
+.menu{
+    height: 110px;
+    width: 130px;
+    text-align: center;
+}
+.burger_icon1{
+   display: block;
+   justify-content: space-around;
+   padding: 100px 100px;
+}
+/* Menu page design ends */
+
+
+
+/* Franchise page design starts */
+.franchise-one video{
+    width: 100%;
+    height: 700px;
+}
+.franchise-one{
+    position: relative;
+}
+.franchise-one-in{
+    text-align: center;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.franchise-one-in h1{
+    font-size: 80px;
+    color: white;
+}
+.franchise-one-in h3{
+    color: white;
+    font-size: 35px;
+}
+.franchise-one-in a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.franchise-two{
+    text-align: center;
+    height: 300px;
+    padding-top: 25px;
+}
+.franchise-three{
+    display: flex;
+    justify-content: space-around;
+}
+.franchise-three-in{
+    text-align: center;
+}
+.franchise-three-in img{
+    height: 70px;
+    width: 70px;
+}
+.franchise-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.franchise-five{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.franchise-five img{
+    height: 40px;
+    width: 40px;
+}
+button .order{
+    width: 100px;
+    height: 40px;
+}
+/* Franchise page design ends */
